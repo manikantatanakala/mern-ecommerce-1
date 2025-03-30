@@ -1,0 +1,24 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Additional body styles for layout, alignment, etc. */
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0.5%;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply font smoothing for Webkit browsers */
+* {
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari, Edge */
+  -moz-osx-font-smoothing: grayscale; /* Firefox on macOS */
+  font-smooth: always; /* Newer browsers, e.g., Safari */
+}
